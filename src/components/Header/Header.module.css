@@ -1,0 +1,23 @@
+.custom-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  color: var(--text-white);
+  h2 {
+    margin: 1rem;
+  }
+  nav {
+    display: flex;
+    gap: 2px;
+    a {
+      text-decoration: none;
+      color: var(--text-white);
+      padding: 0.5rem 1rem;
+      border: solid 2px var(--bg-two);
+      border-bottom: none;
+      border-radius: 1rem 1rem 0 0;
+    }
+  }
+}

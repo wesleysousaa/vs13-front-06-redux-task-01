@@ -1,0 +1,26 @@
+:root {
+  --bg-one: #4369e2;
+  --bg-two: #d9dbf5;
+  --text-black: #000;
+  --text-white: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  background-color: var(--bg-two);
+  border-radius: 0 0 1rem 1rem;
+  padding: 1rem;
+}
+
+.active {
+  color: var(--text-black) !important;
+  background-color: var(--bg-two);
+  transition: all 0.3s ease;
+  border: none !important;
+}

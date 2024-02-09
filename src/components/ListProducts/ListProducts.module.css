@@ -1,0 +1,29 @@
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 250px;
+    background-color: var(--text-white);
+    border-radius: 1rem;
+    padding: 1rem;
+    gap: 1rem;
+    flex: 1;
+
+    .category {
+      background-color: var(--bg-two);
+      border-radius: 1rem;
+      width: fit-content;
+      padding: 0.2rem 0.9rem;
+    }
+
+    buttom {
+      border-radius: 1rem !important;
+    }
+  }
+}

@@ -36,14 +36,17 @@
       position: absolute;
       top: -70px;
       width: 100px;
+      height: 100px;
       border: solid 5px var(--text-white);
       border-radius: 50%;
     }
 
     .description {
+      width: 100%;
       h2,
       p {
-        text-align: center;
+        width: 100%;
+        text-align: end;
       }
     }
   }

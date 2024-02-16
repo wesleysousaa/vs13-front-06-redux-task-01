@@ -45,7 +45,7 @@ export default function Users() {
                 alt={user.first_name}
                 className={style["user-avatar"]}
               />
-              <Box>
+              <Box className={style["description"]}>
                 <h2>
                   {user.first_name} {user.last_name}
                 </h2>

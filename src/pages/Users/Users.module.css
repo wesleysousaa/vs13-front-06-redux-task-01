@@ -40,5 +40,12 @@
       border: solid 5px var(--text-white);
       border-radius: 50%;
     }
+
+    .description {
+      h2,
+      p {
+        width: fit-content;
+      }
+    }
   }
 }

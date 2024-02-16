@@ -25,7 +25,7 @@
 
   .user-body {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 1rem;
     align-items: center;
     justify-content: flex-end;
@@ -34,8 +34,7 @@
     padding: 1rem;
     .user-avatar {
       position: absolute;
-      top: -50px;
-      left: 15px;
+      top: -70px;
       width: 100px;
       border: solid 5px var(--text-white);
       border-radius: 50%;
@@ -44,7 +43,7 @@
     .description {
       h2,
       p {
-        width: fit-content;
+        text-align: center;
       }
     }
   }

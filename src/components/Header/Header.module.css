@@ -19,5 +19,9 @@
       border-bottom: none;
       border-radius: 1rem 1rem 0 0;
     }
+
+    button {
+      color: var(--bg-two);
+    }
   }
 }
